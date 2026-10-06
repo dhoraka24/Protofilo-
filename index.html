@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="/profile.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Dhoraka S P — Full Stack Developer &amp; UI/UX Designer</title>
+    <meta name="title" content="Dhoraka S P — Full Stack Developer &amp; UI/UX Designer" />
+    <meta name="description" content="Portfolio of Dhoraka S P, Full Stack Developer &amp; UI/UX Designer (final-year ECE student at PSNA CET). Crafting intuitive user interfaces, scalable backend architectures, and modern web applications." />
+    <meta name="keywords" content="Dhoraka S P, UI/UX Designer, Full Stack Developer, Frontend Developer, React, Tailwind CSS, Spring Boot, Node.js, Figma, Tamil Nadu, Portfolio" />
+    <meta name="author" content="Dhoraka S P" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dhorakasp.dev/" />
+    <meta property="og:title" content="Dhoraka S P — Full Stack Developer &amp; UI/UX Designer" />
+    <meta property="og:description" content="Final-year ECE student at PSNA CET crafting intuitive interfaces and scalable full-stack applications. Explore case studies, skills, and experience." />
+    <meta property="og:image" content="/profile.jpeg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://dhorakasp.dev/" />
+    <meta property="twitter:title" content="Dhoraka S P — Full Stack Developer &amp; UI/UX Designer" />
+    <meta property="twitter:description" content="Final-year ECE student at PSNA CET crafting intuitive interfaces and scalable full-stack applications." />
+    <meta property="twitter:image" content="/profile.jpeg" />
+    
+    <!-- Preconnect Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Theme Initialization (avoids FOUC) -->
+    <script>
+      (function() {
+        const storedTheme = localStorage.getItem('theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (storedTheme === 'dark' || (!storedTheme && systemPrefersDark)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 font-sans antialiased selection:bg-indigo-500 selection:text-white transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
